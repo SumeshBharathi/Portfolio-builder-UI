@@ -1,0 +1,13 @@
+.Intro-grad {
+    background: linear-gradient(Blue, purple);
+    
+  }
+.Intro-port{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 50px;
+}
+.header{
+    background-color: darkblue;
+}
