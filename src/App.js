@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './Inro.css';
-import Introduction from './Introduction';
-import Form from './Form';
+import Introduction from './components/introduction/Introduction';
+import Form from './components/form/Form';
 
 function App() {
   return (
-     <div className="Intro-grad">
-         <Introduction />
-     </div>
+    <div className="Intro-grad">
+
+      {/* Handle router here  */}
+
+      <Form />
+    </div>
   );
 }
 
