@@ -5,14 +5,14 @@ import about from '../../assets/about.svg';
 import work from '../../assets/work.svg';
 import contact from '../../assets/contact.svg';
 
-const Introduction = () => {
+const Introduction = ({ data }) => {
     return (
         <React.Fragment>
             <div>
                 <img src={port} className="Intro-port" />
                 <br /><br />
-                <h1>Jaswenth</h1>
-                <h3>Software Engineer<br /><br /><br /></h3>
+                <h1>{data.name}</h1>
+                <h3>{data.domain}<br /><br /><br /></h3>
             </div>
             <section>
                 <br /><h1 align="center">About</h1>
