@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+// import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router-dom';
+// import Portfolio from './components/introduction/Portfolio';
 
 export class Form extends Component{
     constructor(props) {
@@ -86,7 +90,7 @@ export class Form extends Component{
                     <label>LinkedIn</label>
                     <input type="text" placeholder="Enter your Linked ID" value={this.state.link} onChange={this.handleLinkChange}/>
                 </div>
-                <button type="submit">Submit</button>
+              <Link to="/Portfolio"> Submit </Link>
             </form>
         )
     }
