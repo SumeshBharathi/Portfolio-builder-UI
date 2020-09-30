@@ -90,7 +90,7 @@ export class Form extends Component{
                     <label>LinkedIn</label>
                     <input type="text" placeholder="Enter your Linked ID" value={this.state.link} onChange={this.handleLinkChange}/>
                 </div>
-              <Link to="/Portfolio"> Submit </Link>
+              {/* <Link to="/Portfolio"> Submit </Link> */}
             </form>
         )
     }
